@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div id="login">
+  <h2>Login</h2>
+  <input type="text" id="user" placeholder="Username">
+  <input type="password" id="pass" placeholder="Password">
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="dashboard">
+  <h1>📊 Student Dashboard</h1>
+
+  <div id="output"></div>
+
+  <h3>Search Student</h3>
+  <input type="text" id="search">
+  <button onclick="searchStudent()">Search</button>
+  <div id="result"></div>
+
+  <h3>Top 3 Students</h3>
+  <div id="top3"></div>
+
+  <canvas id="chart"></canvas>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
