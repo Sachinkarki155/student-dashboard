@@ -45,7 +45,7 @@ It analyzes student data and displays useful insights like:
 
 ## 🌐 Live Demo
 
-👉 Add your GitHub Pages link here
+👉 https://sachinkarki155.github.io/student-dashboard
 
 ---
 
